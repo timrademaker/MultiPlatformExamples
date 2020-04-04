@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{74527CDD-F453-4652-A47D-5F5F0575ED08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332} = {856C5452-3701-4DB8-92D2-FCA5AB19B332}
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39} = {F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E} = {0D76D9FB-B671-4E66-AE75-1212D74BCB4E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Windows", "Windows\Windows.vcxproj", "{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlatformIndependent", "PlatformIndependent\PlatformIndependent.vcxproj", "{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}"
+	ProjectSection(ProjectDependencies) = postProject
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332} = {856C5452-3701-4DB8-92D2-FCA5AB19B332}
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E} = {0D76D9FB-B671-4E66-AE75-1212D74BCB4E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linux", "Linux\Linux.vcxproj", "{856C5452-3701-4DB8-92D2-FCA5AB19B332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Debug|ARM.ActiveCfg = Debug|x64
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Debug|x64.ActiveCfg = Debug|x64
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Debug|x64.Build.0 = Debug|x64
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Release|ARM.ActiveCfg = Release|x64
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Release|x64.ActiveCfg = Release|x64
+		{0D76D9FB-B671-4E66-AE75-1212D74BCB4E}.Release|x64.Build.0 = Release|x64
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Debug|ARM.ActiveCfg = Debug|ARM
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Debug|ARM.Build.0 = Debug|ARM
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Debug|x64.ActiveCfg = Debug|x64
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Debug|x64.Build.0 = Debug|x64
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Release|ARM.ActiveCfg = Release|ARM
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Release|ARM.Build.0 = Release|ARM
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Release|x64.ActiveCfg = Release|x64
+		{74527CDD-F453-4652-A47D-5F5F0575ED08}.Release|x64.Build.0 = Release|x64
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Debug|ARM.Build.0 = Debug|ARM
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Debug|x64.ActiveCfg = Debug|x64
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Debug|x64.Build.0 = Debug|x64
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Release|ARM.ActiveCfg = Release|ARM
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Release|ARM.Build.0 = Release|ARM
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Release|x64.ActiveCfg = Release|x64
+		{F4E87FDA-6D1E-4199-A29D-FB2D2420CD39}.Release|x64.Build.0 = Release|x64
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Debug|ARM.ActiveCfg = Debug|ARM
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Debug|ARM.Build.0 = Debug|ARM
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Debug|x64.ActiveCfg = Debug|ARM
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Release|ARM.ActiveCfg = Release|ARM
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Release|ARM.Build.0 = Release|ARM
+		{856C5452-3701-4DB8-92D2-FCA5AB19B332}.Release|x64.ActiveCfg = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1CCB2A2-E986-4997-899D-CBF627E8B5DC}
+	EndGlobalSection
+EndGlobal
